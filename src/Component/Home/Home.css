@@ -1,0 +1,37 @@
+.home-Conatainer {
+  display: grid;
+  height: fit-content;
+  width: 100%;
+  grid-template-columns: 15rem auto;
+  /* background-color: #9dc183; */
+  /* background-color: rgb(27, 90, 145); */
+  background-color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .home-Conatainer {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) {
+  .home-Conatainer {
+    height: fit-content;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 900px) {
+  .home-Conatainer {
+    height: fit-content;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .home-Conatainer {
+    height: 100%;
+  }
+}
